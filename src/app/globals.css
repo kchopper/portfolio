@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add after your existing styles */
+.theme-link {
+  @apply transition-colors duration-300;
+}
+
+[data-theme="matrix"] .theme-link {
+  @apply text-emerald-300;
+}
+
+[data-theme="ubuntu"] .theme-link {
+  @apply text-[#98FB98];
+}
+
+[data-theme="powershell"] .theme-link {
+  @apply text-green-400;
+}
+
+[data-theme="light"] .theme-link {
+  @apply text-green-600;
+}

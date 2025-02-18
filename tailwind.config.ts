@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        terminal: {
+          ubuntu: '#300a24',
+          powershell: '#012456',
+        }
       },
     },
   },
